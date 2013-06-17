@@ -1,0 +1,106 @@
+@charset "UTF-8";
+/* CSS Document */
+
+a:link {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: .8em;
+	text-decoration: none;
+	color: #000;
+}
+
+a:active {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: .8em;
+	text-decoration: none;
+	color: #000;
+}
+
+a:visited {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: .8em;
+	text-decoration: none;
+	color: #000;
+}
+
+a:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: .8em;
+	text-decoration: none;
+	color: #000;
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%; /* for the sake of the wrapper to extend 100% */
+
+	background-image:url(jbsc.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:cover;
+}
+
+#mainWrapper {
+	position: relative;
+	overflow:hidden; /* extends wrapper to top */
+	width:800px;
+
+	min-height:100%;
+	
+	margin:0px auto;
+	padding:0;
+	background: rgba(255, 255, 255, .7); /* opacity */
+}
+
+h1 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 2em;
+	color: #006;
+	text-align: center;
+}
+
+h2 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 1em;
+	color: #000;
+}
+
+p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: .8em;
+	color: #000;
+	padding: 10px;
+}
+
+/* Navigation Bar */
+
+#nav	{
+	position: relative;
+	margin: 0;
+	padding: 0;
+}
+
+#nav line-height: {
+	list-style: none;
+	float: left;
+}
+
+#nav li a	{
+	display: block;
+	padding: 3px 8px;
+	text-decoration: none;
+	color: #999;
+	font-weight: bold;
+}
+
+#nav li ul	{
+	display: none;
+}
+
+#nav li:hover ul, #nav li.hover ul	{
+	position: absolute;
+	display: inline;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
